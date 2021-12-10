@@ -27,10 +27,11 @@
   </head>
   <body>
       @include('includes.navbar')
-      <div class="wrap container">
+      <div class="wrap">
         <div id="main" class="row">
           <div class="col-md-12">
             @include('page.header')
+            @include('page.experience')
           </div>
         </div>
       </div>
